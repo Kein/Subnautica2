@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWEUserGeneratedContent",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Jon Bjarnason",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWEUserGeneratedContent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UWESaveSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEAnalytics",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEImGui",
+			"Enabled": true
+		},
+		{
+			"Name": "ImGui",
+			"Enabled": true
+		},
+		{
+			"Name": "UWESonar",
+			"Enabled": true
+		}
+	]
+}

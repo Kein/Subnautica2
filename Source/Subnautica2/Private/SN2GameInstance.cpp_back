@@ -1,0 +1,18 @@
+#include "SN2GameInstance.h"
+//#include "SN2SettingsViewModel.h"
+
+USN2GameInstance::USN2GameInstance() {
+    //this->SettingsViewModel = CreateDefaultSubobject<USN2SettingsViewModel>(TEXT("SettingsViewModel"));
+    this->EventNumber = 1;
+    //this->CompilingShadersWidget = NULL;
+}
+
+void USN2GameInstance::ShowCompilingShadersWidget() {
+}
+
+void USN2GameInstance::PrintCacheStats() {
+}
+
+//void USN2GameInstance::OnUserPrivilegeChanged(const UCommonUserInfo* UserInfo, EUWEUserPrivilege Privilege, bool bHasPrivilege) {}
+
+

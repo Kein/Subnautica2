@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWESequence",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Andreas Urwalek",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWESequence",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UWESaveSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEGameplayTime",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorSequence",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEPlayerReady",
+			"Enabled": true
+		}
+	]
+}

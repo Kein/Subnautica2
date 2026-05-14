@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWEPinnedRecipes",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWEPinnedRecipes",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UWEAssetRegistry",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEAnalytics",
+			"Enabled": true
+		},
+		{
+			"Name": "UWELog",
+			"Enabled": true
+		},
+		{
+			"Name": "UWESaveSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEUtilities",
+			"Enabled": true
+		}
+	]
+}

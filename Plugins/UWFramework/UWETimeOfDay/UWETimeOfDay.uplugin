@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWETimeOfDay",
+	"Description": "Everything time of day",
+	"Category": "Other",
+	"CreatedBy": "Leo Frilot",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWETimeOfDay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UWEUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEAutomationTesting",
+			"Enabled": true
+		},
+		{
+			"Name": "UWESaveSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEGameplayTime",
+			"Enabled": true
+		}
+	]
+}

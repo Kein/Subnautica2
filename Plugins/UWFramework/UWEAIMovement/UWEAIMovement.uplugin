@@ -1,0 +1,62 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWEAIMovement",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWEAIMovement",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UWEMath",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEAssetRegistry",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEInterfaces",
+			"Enabled": true
+		},
+		{
+			"Name": "UWECollision",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEPhysics",
+			"Enabled": true
+		},
+		{
+			"Name": "UWETickAggregation",
+			"Enabled": true
+		},
+		{
+			"Name": "Mercuna",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEMercuna",
+			"Enabled": true
+		}
+	]
+}

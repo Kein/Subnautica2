@@ -1,0 +1,70 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UWETrigger",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Andreas Urwalek",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UWETrigger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "FMODStudio",
+			"Enabled": true
+		},
+		{
+			"Name": "UWECollision",
+			"Enabled": true
+		},
+		{
+			"Name": "UWESonar",
+			"Enabled": true
+		},
+		{
+			"Name": "UWESaveSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEStoryGoals",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEDialogue",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEGameplayTime",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "UWEDynamicItems",
+			"Enabled": true
+		}
+	]
+}

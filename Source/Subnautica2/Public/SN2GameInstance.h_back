@@ -1,0 +1,42 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=UWEAnalytics -ObjectName=UWEEventRecorder -FallbackName=UWEEventRecorder
+//CROSS-MODULE INCLUDE V2: -ModuleName=UWEGameplay -ObjectName=UWEGameInstance -FallbackName=UWEGameInstance
+//CROSS-MODULE INCLUDE V2: -ModuleName=UWESonar -ObjectName=EUWEUserPrivilege -FallbackName=EUWEUserPrivilege
+#include "SN2GameInstance.generated.h"
+
+//class UCommonUserInfo;
+//class UCommonUserWidget;
+//class USN2SettingsViewModel;
+
+UCLASS(NonTransient)
+class SUBNAUTICA2_API USN2GameInstance : public UGameInstance {//: public UUWEGameInstance, public IUWEEventRecorder {
+    GENERATED_BODY()
+public:
+private:
+    //UPROPERTY()
+    //USN2SettingsViewModel* SettingsViewModel;
+    
+    UPROPERTY()
+    int32 EventNumber;
+    
+    //UPROPERTY(Instanced)
+    //UCommonUserWidget* CompilingShadersWidget;
+    
+public:
+    USN2GameInstance();
+
+    UFUNCTION(BlueprintCallable)
+    void ShowCompilingShadersWidget();
+    
+private:
+    UFUNCTION()
+    void PrintCacheStats();
+    
+    //UFUNCTION()
+    //void OnUserPrivilegeChanged(const UCommonUserInfo* UserInfo, EUWEUserPrivilege Privilege, bool bHasPrivilege);
+    
+
+    // Fix for true pure virtual functions not being implemented
+};
+

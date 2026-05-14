@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.89.3",
+	"FriendlyName": "DearImGui",
+	"Description": "",
+	"Category": "Debug",
+	"CreatedBy": "Omar Cornut, segross, IDI-Systems, Other contributors",
+	"CreatedByURL": "https://github.com/IDI-Systems/UnrealImGui/graphs/contributors",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ImGui",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
