@@ -16,6 +16,11 @@ Some of the plugins and modules disabled in project file, feel free to re-enabel
 
 0. It is assumed you have UE5.6 installed and the build toolchain as well
 1. Clone the project
-2. Install FMODStudio 2.03.09 plugin for Unreal: https://www.fmod.com/download#plug-ins (replace the empty folder)
-3. Install Sentry: https://github.com/getsentry/sentry-unreal/releases (same as above)
-4. Build the game project
+2. Install FMODStudio 2.03.09 plugin for Unreal:
+   a) https://www.fmod.com/download
+   b) Select FMOD for Unreal
+   c) Select 2.03
+   d) Select 2.03.09
+   e) Download the one that says for 5.6
+   f) Extract into Subnautica2\Plugins\
+4. Build the UE game project
