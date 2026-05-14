@@ -18,7 +18,6 @@ public class UWESky : ModuleRules {
             "UWEWeather",
         });
         PrivateIncludePaths.AddRange(new string[] {
-            System.IO.Path.Combine(GetModuleDirectory("DaySequence"), "DaySequence/Private"),
             System.IO.Path.Combine(GetModuleDirectory("DaySequence"), "Private"),
             System.IO.Path.Combine(GetModuleDirectory("DaySequence"), "Public")
         });
